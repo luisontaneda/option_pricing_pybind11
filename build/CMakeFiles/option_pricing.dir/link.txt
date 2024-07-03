@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g -shared  -o option_pricing.cpython-310-x86_64-linux-gnu.so CMakeFiles/option_pricing.dir/wrappers.cpp.o 
+/usr/bin/c++ -fPIC -flto -shared  -o option_pricing.cpython-310-x86_64-linux-gnu.so CMakeFiles/option_pricing.dir/wrappers.cpp.o 

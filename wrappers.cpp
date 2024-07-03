@@ -1,7 +1,7 @@
 #include <pybind11/pybind11.h>
 
-#include "stoch_proccess.cpp"
-#include "cos_pricing.cpp"
+#include "pricing_algorithms/COS_method/cos_pricing.h"
+#include "pricing_algorithms/montecarlo_method/stoch_proccess.h"
 
 namespace py = pybind11;
 
