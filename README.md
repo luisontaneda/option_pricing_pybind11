@@ -6,8 +6,10 @@ Option pricing library using pybind11.
 
 
 ## Types of Option Contracts
-- **Vanilla Options**: European options.
-- **Exotic Options**: Asian options.
+- **European**:
+  - Vanilla Options
+  - Exotic Options: 
+    - Asian
 
 
 ## Methods used: 
