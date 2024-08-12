@@ -20,11 +20,8 @@ int main() {
   double T = 1.0;
   double x_0 = log(S_0 / K);
   // int M = 50;
-  int n_b_fun = 3;
   int d = 3;
   int n_steps = 100;
-  int n_sims = 250000;
-  int n_q = 1000;
   string CP = "Put";
 
   double res =

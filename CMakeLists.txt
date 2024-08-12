@@ -6,7 +6,6 @@ project(option_pricing_code)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(BOOST_ROOT "${CMAKE_SOURCE_DIR}/external/boost")
 
 # Add include directories
 include_directories(
