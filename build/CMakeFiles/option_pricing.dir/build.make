@@ -73,27 +73,91 @@ CMakeFiles/option_pricing.dir/wrappers.cpp.o: CMakeFiles/option_pricing.dir/flag
 CMakeFiles/option_pricing.dir/wrappers.cpp.o: ../wrappers.cpp
 CMakeFiles/option_pricing.dir/wrappers.cpp.o: CMakeFiles/option_pricing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/option_pricing.dir/wrappers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/wrappers.cpp.o -MF CMakeFiles/option_pricing.dir/wrappers.cpp.o.d -o CMakeFiles/option_pricing.dir/wrappers.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/wrappers.cpp.o -MF CMakeFiles/option_pricing.dir/wrappers.cpp.o.d -o CMakeFiles/option_pricing.dir/wrappers.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp
 
 CMakeFiles/option_pricing.dir/wrappers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/option_pricing.dir/wrappers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp > CMakeFiles/option_pricing.dir/wrappers.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp > CMakeFiles/option_pricing.dir/wrappers.cpp.i
 
 CMakeFiles/option_pricing.dir/wrappers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/option_pricing.dir/wrappers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp -o CMakeFiles/option_pricing.dir/wrappers.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp -o CMakeFiles/option_pricing.dir/wrappers.cpp.s
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/flags.make
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o: ../pricing_algorithms/COS_method/European/stoch_process.cpp
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o -MF CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o.d -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/European/stoch_process.cpp
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/European/stoch_process.cpp > CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.i
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/European/stoch_process.cpp -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.s
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/flags.make
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o: ../pricing_algorithms/montecarlo_method/European/stoch_process.cpp
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o -MF CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o.d -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/European/stoch_process.cpp
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/European/stoch_process.cpp > CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/European/stoch_process.cpp -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/flags.make
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o: ../pricing_algorithms/COS_method/American/stoch_process.cpp
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o -MF CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o.d -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/American/stoch_process.cpp
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/American/stoch_process.cpp > CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.i
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/American/stoch_process.cpp -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.s
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/flags.make
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o: ../pricing_algorithms/montecarlo_method/American/stoch_process.cpp
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o: CMakeFiles/option_pricing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o -MF CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o.d -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/American/stoch_process.cpp
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/American/stoch_process.cpp > CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i
+
+CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/American/stoch_process.cpp -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s
 
 # Object files for target option_pricing
 option_pricing_OBJECTS = \
-"CMakeFiles/option_pricing.dir/wrappers.cpp.o"
+"CMakeFiles/option_pricing.dir/wrappers.cpp.o" \
+"CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o" \
+"CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o" \
+"CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o" \
+"CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o"
 
 # External object files for target option_pricing
 option_pricing_EXTERNAL_OBJECTS =
 
 option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/wrappers.cpp.o
+option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o
+option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o
+option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o
+option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o
 option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/build.make
 option_pricing.cpython-310-x86_64-linux-gnu.so: CMakeFiles/option_pricing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module option_pricing.cpython-310-x86_64-linux-gnu.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared module option_pricing.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/option_pricing.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/strip /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/option_pricing.cpython-310-x86_64-linux-gnu.so
 

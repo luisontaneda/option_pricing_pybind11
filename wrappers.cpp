@@ -1,101 +1,62 @@
 #include <pybind11/pybind11.h>
-
-#include "pricing_algorithms/COS_method/cos_pricing.h"
-#include "pricing_algorithms/montecarlo_method/stoch_proccess.h"
+#include "pricing_algorithms/COS_method/COS_method_wrapper.h"
+#include "pricing_algorithms/montecarlo_method/montecarlo_wrapper.h"
 
 namespace py = pybind11;
 
-void init_montecarlo_sub(py::module &);
-void init_vanilla_mont_sub(py::module &);
-void init_european_mont_sub(py::module &);
-
-
-void init_asian_cos_sub(py::module &m);
-void init_vanilla_cos_sub(py::module &m);
-void init_exotic_cos_sub(py::module &m);
-void init_european_cos_sub(py::module &m);
-void init_cos_method_sub(py::module &m);
-
+void init_montecarlo(py::module&);
+void init_cos_method(py::module&);
 
 PYBIND11_MODULE(option_pricing, m) {
-    m.doc() = "option_pricing plugin"; // optional module docstring
+    m.doc() = "option_pricing plugin";
 
-    py::module montecarlo_sub = m.def_submodule("montecarlo", "A submodule for Monte Carlo methods");
-    py::module cos_method_sub = m.def_submodule("cos_method", "A submodule for COS method");
-    
-    // Initialize the submodules
-    init_montecarlo_sub(montecarlo_sub);
-    init_cos_method_sub(cos_method_sub);
+    py::module montecarlo = m.def_submodule("montecarlo", "Submodule for Monte Carlo methods");
+    py::module cos_method = m.def_submodule("cos_method", "Submodule for COS method");
+
+    init_montecarlo(montecarlo);
+    init_cos_method(cos_method);
 }
 
+// Monte Carlo method submodules
 
-// submodules for Montecarlo method
+void init_montecarlo(py::module& m) {
+    py::module european = m.def_submodule("european", "Submodule for European style options");
+    {
+    py::module vanilla = european.def_submodule("vanilla", "Submodule for Vanilla options");
+    py::module exotic = european.def_submodule("exotic", "Submodule for Exotic options");
+    py::module asian = exotic.def_submodule("asian", "Submodule for Asian options");
 
+    vanilla.def("gbm", &montecarlo::european::gbm, "Pricing using Stochastic process: GBM");
+    vanilla.def("heston", &montecarlo::european::heston, "Pricing using Stochastic process: Heston");
+    asian.def("gbm", &montecarlo::european::asian_gbm, "Pricing using Stochastic process: GBM");
+    }
 
-void init_asian_mont_sub(py::module &m) {
-    m.def("gbm", &asian_gbm, "Pricing using Stochastic process: GBM");
+    py::module american = m.def_submodule("american", "Submodule for American style options");
+    {
+    py::module vanilla = american.def_submodule("vanilla", "Submodule for Vanilla options");
+
+    vanilla.def("gbm", &montecarlo::american::gbm, "Pricing using Stochastic process: GBM");
+    }
 }
 
+// COS method submodules
 
-void init_vanilla_mont_sub(py::module &m) {
-    m.def("gbm", &gbm, "Pricing using Stochastic process: GBM");
-    m.def("heston", &heston, "Pricing using Stochastic process: Heston");
+void init_cos_method(py::module& m) {
+    py::module european = m.def_submodule("european", "Submodule for European style options");
+    {
+    py::module vanilla = european.def_submodule("vanilla", "Submodule for Vanilla options");
+    py::module exotic = european.def_submodule("exotic", "Submodule for Exotic options");
+    py::module asian = exotic.def_submodule("asian", "Submodule for Asian options");
+
+    vanilla.def("gbm", &COS_method::european::gbm, "Pricing using Stochastic process: GBM");
+    vanilla.def("heston", &COS_method::european::heston, "Pricing using Stochastic process: Heston");
+    asian.def("gbm", &COS_method::european::asian_gbm, "Pricing using Stochastic process: GBM");
+    }
+
+    py::module american = m.def_submodule("american", "Submodule for American style options");
+    {
+    py::module vanilla = american.def_submodule("vanilla", "Submodule for Vanilla options");
+
+    vanilla.def("gbm", &COS_method::american::gbm, "Pricing using Stochastic process: GBM");
+    }
 }
-
-
-void init_exotic_mont_sub(py::module &m) {
-    py::module asian_sub = m.def_submodule("asian", "A nested submodule for asian options");
-
-    init_asian_mont_sub(asian_sub);
-}
-
-void init_european_mont_sub(py::module &m) {
-    py::module vanilla_sub = m.def_submodule("vanilla", "A nested submodule for vanilla options");
-    py::module exotic_sub = m.def_submodule("exotic", "A nested submodule for exotic options");
-
-    init_vanilla_mont_sub(vanilla_sub);
-    init_exotic_mont_sub(exotic_sub);
-
-}
-
-void init_montecarlo_sub(py::module &m) {
-    py::module european = m.def_submodule("european", "A nested submodule for european style options");
-    init_european_mont_sub(european);
-}
-
-
-
-// submodules for COS method
-
-
-void init_asian_cos_sub(py::module &m) {
-    m.def("gbm", &asian_gbm_1, "Pricing using Stochastic process: GBM");
-}
-
-
-void init_vanilla_cos_sub(py::module &m) {
-    m.def("gbm", &gbm_1, "Pricing using Stochastic process: GBM");
-    m.def("heston", &heston_1, "Pricing using Stochastic process: Heston");
-}
-
-
-void init_exotic_cos_sub(py::module &m) {
-    py::module asian_sub = m.def_submodule("asian", "A nested submodule for asian options");
-
-    init_asian_cos_sub(asian_sub);
-}
-
-void init_european_cos_sub(py::module &m) {
-    py::module vanilla_sub = m.def_submodule("vanilla", "A nested submodule for vanilla options");
-    py::module exotic_sub = m.def_submodule("exotic", "A nested submodule for exotic options");
-
-    init_vanilla_cos_sub(vanilla_sub);
-    init_exotic_cos_sub(exotic_sub);
-
-}
-
-void init_cos_method_sub(py::module &m) {
-    py::module european = m.def_submodule("european", "A nested submodule for european style options");
-    init_european_cos_sub(european);
-}
-

@@ -129,6 +129,102 @@ option_pricing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/build
 .PHONY : option_pricing/fast
 
+pricing_algorithms/COS_method/American/stoch_process.o: pricing_algorithms/COS_method/American/stoch_process.cpp.o
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.o
+
+# target to build an object file
+pricing_algorithms/COS_method/American/stoch_process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.cpp.o
+
+pricing_algorithms/COS_method/American/stoch_process.i: pricing_algorithms/COS_method/American/stoch_process.cpp.i
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.i
+
+# target to preprocess a source file
+pricing_algorithms/COS_method/American/stoch_process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.i
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.cpp.i
+
+pricing_algorithms/COS_method/American/stoch_process.s: pricing_algorithms/COS_method/American/stoch_process.cpp.s
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.s
+
+# target to generate assembly for a file
+pricing_algorithms/COS_method/American/stoch_process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.s
+.PHONY : pricing_algorithms/COS_method/American/stoch_process.cpp.s
+
+pricing_algorithms/COS_method/European/stoch_process.o: pricing_algorithms/COS_method/European/stoch_process.cpp.o
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.o
+
+# target to build an object file
+pricing_algorithms/COS_method/European/stoch_process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.cpp.o
+
+pricing_algorithms/COS_method/European/stoch_process.i: pricing_algorithms/COS_method/European/stoch_process.cpp.i
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.i
+
+# target to preprocess a source file
+pricing_algorithms/COS_method/European/stoch_process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.i
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.cpp.i
+
+pricing_algorithms/COS_method/European/stoch_process.s: pricing_algorithms/COS_method/European/stoch_process.cpp.s
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.s
+
+# target to generate assembly for a file
+pricing_algorithms/COS_method/European/stoch_process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.s
+.PHONY : pricing_algorithms/COS_method/European/stoch_process.cpp.s
+
+pricing_algorithms/montecarlo_method/American/stoch_process.o: pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.o
+
+# target to build an object file
+pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o
+
+pricing_algorithms/montecarlo_method/American/stoch_process.i: pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.i
+
+# target to preprocess a source file
+pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.cpp.i
+
+pricing_algorithms/montecarlo_method/American/stoch_process.s: pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.s
+
+# target to generate assembly for a file
+pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s
+.PHONY : pricing_algorithms/montecarlo_method/American/stoch_process.cpp.s
+
+pricing_algorithms/montecarlo_method/European/stoch_process.o: pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.o
+
+# target to build an object file
+pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o
+
+pricing_algorithms/montecarlo_method/European/stoch_process.i: pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.i
+
+# target to preprocess a source file
+pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.cpp.i
+
+pricing_algorithms/montecarlo_method/European/stoch_process.s: pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.s
+
+# target to generate assembly for a file
+pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/option_pricing.dir/build.make CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s
+.PHONY : pricing_algorithms/montecarlo_method/European/stoch_process.cpp.s
+
 wrappers.o: wrappers.cpp.o
 .PHONY : wrappers.o
 
@@ -162,6 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... option_pricing"
+	@echo "... pricing_algorithms/COS_method/American/stoch_process.o"
+	@echo "... pricing_algorithms/COS_method/American/stoch_process.i"
+	@echo "... pricing_algorithms/COS_method/American/stoch_process.s"
+	@echo "... pricing_algorithms/COS_method/European/stoch_process.o"
+	@echo "... pricing_algorithms/COS_method/European/stoch_process.i"
+	@echo "... pricing_algorithms/COS_method/European/stoch_process.s"
+	@echo "... pricing_algorithms/montecarlo_method/American/stoch_process.o"
+	@echo "... pricing_algorithms/montecarlo_method/American/stoch_process.i"
+	@echo "... pricing_algorithms/montecarlo_method/American/stoch_process.s"
+	@echo "... pricing_algorithms/montecarlo_method/European/stoch_process.o"
+	@echo "... pricing_algorithms/montecarlo_method/European/stoch_process.i"
+	@echo "... pricing_algorithms/montecarlo_method/European/stoch_process.s"
 	@echo "... wrappers.o"
 	@echo "... wrappers.i"
 	@echo "... wrappers.s"
