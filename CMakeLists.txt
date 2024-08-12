@@ -14,7 +14,7 @@ include_directories(
 )
 
 # Add the pybind11 subdirectory
-add_subdirectory(thirdparty/pybind11)
+add_subdirectory(external/pybind11)
 
 # Source files for the module
 set(SOURCE_FILES
