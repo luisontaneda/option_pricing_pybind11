@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -Doption_pricing_EXPORTS
 
-CXX_INCLUDES = -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0 -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/pybind11/include -isystem /usr/include/python3.10
+CXX_INCLUDES = -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/pybind11/include -isystem /usr/include/python3.10
 
-CXX_FLAGS = -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects -std=gnu++17
+CXX_FLAGS = -g -fPIC -fvisibility=hidden -std=gnu++17
 

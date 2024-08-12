@@ -25,11 +25,12 @@ int main() {
   int n_steps = 100;
   int n_sims = 250000;
   int n_q = 1000;
-  string CP = "Call";
+  string CP = "Put";
 
-  double res = COS_method::american::gbm(S_0, K, T, r, sigma, n_steps, L, N, d, CP);
+  double res =
+      COS_method::american::gbm(S_0, K, T, r, sigma, n_steps, L, N, d, CP);
 
-  //double res = COS_method::european::gbm(S_0, K, T, r, sigma, L, N, CP);
+  // double res = COS_method::european::gbm(S_0, K, T, r, sigma, L, N, CP);
 
   // double res = COS_method::european::asian_gbm(S_0, K, T, r, sigma,
   //                n_steps, N, n_q, L, CP);

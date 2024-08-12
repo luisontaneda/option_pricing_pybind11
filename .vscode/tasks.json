@@ -12,8 +12,7 @@
         "European/stoch_process.cpp",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}",
-        "-I${workspaceFolder}/thirdparty/eigen",
-        "-I${workspaceFolder}/thirdparty/boost_1_85_0"
+        "-I${workspaceFolder}/thirdparty/eigen"
       ],
       "options": {
         "cwd": "${fileDirname}"

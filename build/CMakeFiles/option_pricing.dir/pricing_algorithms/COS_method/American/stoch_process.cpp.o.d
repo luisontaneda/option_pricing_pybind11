@@ -405,18 +405,18 @@ CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_proce
  /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/eigen/Eigen/src/Eigenvalues/./RealQZ.h \
  /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/roots.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/complex.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/is_detected.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/config.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/is_standalone.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/user.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/select_compiler_config.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/compiler/gcc.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/select_stdlib_config.hpp \
+ /usr/local/include/boost/math/tools/roots.hpp \
+ /usr/local/include/boost/math/tools/complex.hpp \
+ /usr/local/include/boost/math/tools/is_detected.hpp \
+ /usr/local/include/boost/math/tools/config.hpp \
+ /usr/local/include/boost/math/tools/is_standalone.hpp \
+ /usr/local/include/boost/config.hpp \
+ /usr/local/include/boost/config/user.hpp \
+ /usr/local/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/local/include/boost/config/compiler/gcc.hpp \
+ /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
  /usr/include/c++/11/version \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/local/include/boost/config/stdlib/libstdcpp3.hpp \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -424,46 +424,46 @@ CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_proce
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/select_platform_config.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/platform/linux.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/posix_features.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/suffix.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/helper_macros.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/detail/cxx_composite.hpp \
+ /usr/local/include/boost/config/detail/select_platform_config.hpp \
+ /usr/local/include/boost/config/platform/linux.hpp \
+ /usr/local/include/boost/config/detail/posix_features.hpp \
+ /usr/local/include/boost/config/detail/suffix.hpp \
+ /usr/local/include/boost/config/helper_macros.hpp \
+ /usr/local/include/boost/config/detail/cxx_composite.hpp \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/user.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/cxx03_warn.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/sign.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/math_fwd.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/detail/round_fwd.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/promotion.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/policies/policy.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/mp.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/detail/fp_traits.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/assert.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/assert.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/static_assert.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/detail/workaround.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/config/workaround.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/other/endian.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/version_number.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/make.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/detail/test.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/library/c/gnu.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/library/c/_prefix.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/detail/_cassert.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/macos.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/ios.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd/bsdi.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd/dragonfly.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd/free.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd/open.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/os/bsd/net.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/predef/platform/android.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/next.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/policies/error_handling.hpp \
+ /usr/local/include/boost/math/tools/user.hpp \
+ /usr/local/include/boost/math/tools/cxx03_warn.hpp \
+ /usr/local/include/boost/math/special_functions/sign.hpp \
+ /usr/local/include/boost/math/special_functions/math_fwd.hpp \
+ /usr/local/include/boost/math/special_functions/detail/round_fwd.hpp \
+ /usr/local/include/boost/math/tools/promotion.hpp \
+ /usr/local/include/boost/math/policies/policy.hpp \
+ /usr/local/include/boost/math/tools/mp.hpp \
+ /usr/local/include/boost/math/special_functions/detail/fp_traits.hpp \
+ /usr/local/include/boost/math/tools/assert.hpp \
+ /usr/local/include/boost/assert.hpp \
+ /usr/local/include/boost/static_assert.hpp \
+ /usr/local/include/boost/detail/workaround.hpp \
+ /usr/local/include/boost/config/workaround.hpp \
+ /usr/local/include/boost/predef/other/endian.h \
+ /usr/local/include/boost/predef/version_number.h \
+ /usr/local/include/boost/predef/make.h \
+ /usr/local/include/boost/predef/detail/test.h \
+ /usr/local/include/boost/predef/library/c/gnu.h \
+ /usr/local/include/boost/predef/library/c/_prefix.h \
+ /usr/local/include/boost/predef/detail/_cassert.h \
+ /usr/local/include/boost/predef/os/macos.h \
+ /usr/local/include/boost/predef/os/ios.h \
+ /usr/local/include/boost/predef/os/bsd.h \
+ /usr/local/include/boost/predef/os/bsd/bsdi.h \
+ /usr/local/include/boost/predef/os/bsd/dragonfly.h \
+ /usr/local/include/boost/predef/os/bsd/free.h \
+ /usr/local/include/boost/predef/os/bsd/open.h \
+ /usr/local/include/boost/predef/os/bsd/net.h \
+ /usr/local/include/boost/predef/platform/android.h \
+ /usr/local/include/boost/math/special_functions/next.hpp \
+ /usr/local/include/boost/math/policies/error_handling.hpp \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -473,24 +473,24 @@ CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_proce
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/precision.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/throw_exception.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/throw_exception.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/exception/exception.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/assert/source_location.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/cstdint.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/fpclassify.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/real_cast.hpp \
+ /usr/local/include/boost/math/tools/precision.hpp \
+ /usr/local/include/boost/math/tools/throw_exception.hpp \
+ /usr/local/include/boost/throw_exception.hpp \
+ /usr/local/include/boost/exception/exception.hpp \
+ /usr/local/include/boost/assert/source_location.hpp \
+ /usr/local/include/boost/cstdint.hpp \
+ /usr/local/include/boost/math/special_functions/fpclassify.hpp \
+ /usr/local/include/boost/math/tools/real_cast.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/quadmath.h \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/special_functions/trunc.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/ccmath/detail/config.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/is_constant_evaluated.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/ccmath/ldexp.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/ccmath/abs.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/ccmath/isnan.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/ccmath/isinf.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/traits.hpp \
- /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/thirdparty/boost_1_85_0/boost/math/tools/toms748_solve.hpp \
+ /usr/local/include/boost/math/special_functions/trunc.hpp \
+ /usr/local/include/boost/math/ccmath/detail/config.hpp \
+ /usr/local/include/boost/math/tools/is_constant_evaluated.hpp \
+ /usr/local/include/boost/math/ccmath/ldexp.hpp \
+ /usr/local/include/boost/math/ccmath/abs.hpp \
+ /usr/local/include/boost/math/ccmath/isnan.hpp \
+ /usr/local/include/boost/math/ccmath/isinf.hpp \
+ /usr/local/include/boost/math/tools/traits.hpp \
+ /usr/local/include/boost/math/tools/toms748_solve.hpp \
  /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
