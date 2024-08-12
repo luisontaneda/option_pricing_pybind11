@@ -12,7 +12,7 @@
         "European/stoch_process.cpp",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}",
-        "-I${workspaceFolder}/thirdparty/eigen"
+        "-I${workspaceFolder}/external/eigen"
       ],
       "options": {
         "cwd": "${fileDirname}"

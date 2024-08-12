@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build",
+  "command": "/usr/bin/g++ -Doption_pricing_EXPORTS -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -std=gnu++17 -o CMakeFiles/option_pricing.dir/wrappers.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp",
+  "file": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/wrappers.cpp"
+},
+{
+  "directory": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build",
+  "command": "/usr/bin/g++ -Doption_pricing_EXPORTS -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -std=gnu++17 -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/European/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/European/stoch_process.cpp",
+  "file": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/European/stoch_process.cpp"
+},
+{
+  "directory": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build",
+  "command": "/usr/bin/g++ -Doption_pricing_EXPORTS -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -std=gnu++17 -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/European/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/European/stoch_process.cpp",
+  "file": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/European/stoch_process.cpp"
+},
+{
+  "directory": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build",
+  "command": "/usr/bin/g++ -Doption_pricing_EXPORTS -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -std=gnu++17 -o CMakeFiles/option_pricing.dir/pricing_algorithms/COS_method/American/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/American/stoch_process.cpp",
+  "file": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method/American/stoch_process.cpp"
+},
+{
+  "directory": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build",
+  "command": "/usr/bin/g++ -Doption_pricing_EXPORTS -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/eigen -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/COS_method -I/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method -isystem /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/external/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -std=gnu++17 -o CMakeFiles/option_pricing.dir/pricing_algorithms/montecarlo_method/American/stoch_process.cpp.o -c /mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/American/stoch_process.cpp",
+  "file": "/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/pricing_algorithms/montecarlo_method/American/stoch_process.cpp"
+}
+]

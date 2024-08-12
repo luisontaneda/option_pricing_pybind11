@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add include directories
 include_directories(
-    ${CMAKE_SOURCE_DIR}/thirdparty/eigen
+    ${CMAKE_SOURCE_DIR}/external/eigen
 )
 
 # Add the pybind11 subdirectory
