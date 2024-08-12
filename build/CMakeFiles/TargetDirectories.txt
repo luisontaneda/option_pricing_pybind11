@@ -1,5 +1,0 @@
-/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles/option_pricing.dir
-/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/external/pybind11/CMakeFiles/edit_cache.dir
-/mnt/c/Users/luiso/OneDrive/Documents/github_documents/option_pricing_pybind11/build/external/pybind11/CMakeFiles/rebuild_cache.dir
